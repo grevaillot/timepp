@@ -25,7 +25,6 @@ class Settings {
         this.switcher = new Gtk.StackSwitcher({ visible: true, stack: this.builder.get_object('settings_stack'), halign: Gtk.Align.CENTER, });
 
         this._bind_settings();
-        this._set_headerbar();
     }
 
     // Bind the gtk window to the schema settings
